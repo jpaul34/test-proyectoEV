@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jonathan.emprendeelviaje_v10.Registro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de usuario"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+    />
+
+    <EditText
+        android:id="@+id/et_regNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Primer Nombre"
+        android:inputType="text"
+    />
+
+    <EditText
+        android:id="@+id/et_regApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Primer Apellido"
+        android:inputType="text"
+    />
+
+    <EditText
+        android:id="@+id/et_regCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:inputType="text"
+    />
+
+    <EditText
+        android:id="@+id/et_regContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+    />
+
+    <EditText
+        android:id="@+id/et_regFechaNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de nacimiento dd/mm/aaaa"
+        android:inputType="date"
+    />
+
+
+    <EditText
+        android:id="@+id/et_regPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="País"
+        android:inputType="text"
+    />
+
+    <EditText
+        android:id="@+id/et_regCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ciudad"
+        android:inputType="text"
+    />
+
+    <Button
+        android:id="@+id/btn_regRegistrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Registrarse"
+
+    />
+
+
+</LinearLayout>

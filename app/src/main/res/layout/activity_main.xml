@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jonathan.emprendeelviaje_v10.MainActivity">
+
+    <ImageView
+        android:layout_width="388dp"
+        android:layout_height="217dp"
+        android:layout_gravity="center"
+        android:src="@drawable/portada"
+    />
+
+    <EditText
+        android:id="@+id/et_loginCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Correo"
+        android:inputType="text"
+
+    />
+
+    <EditText
+        android:id="@+id/et_loginContrañse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+    />
+
+    <Button
+        android:id="@+id/btn_loginEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Entrar"
+
+    />
+
+    <TextView
+        android:id="@+id/tv_btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="REGISTRARSE"
+        android:textSize="15sp"
+    />
+
+
+</LinearLayout>
